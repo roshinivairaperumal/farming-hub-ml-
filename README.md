@@ -37,3 +37,57 @@ The system uses a **TensorFlow deep learning model** trained for plant disease c
 ---
 
 ## 🏗️ System Architecture
+Plant Leaf Image
+│
+▼
+ESP32-CAM / Upload / Device Camera
+│
+▼
+Flask API Server
+│
+▼
+TensorFlow ML Model
+│
+▼
+Disease Prediction
+│
+▼
+Treatment & Prevention Recommendation
+
+---
+
+## 🛠️ Tech Stack
+
+**Machine Learning**
+- TensorFlow
+- Keras
+- NumPy
+- Pillow
+
+**Backend**
+- Python
+- Flask
+- Flask-CORS
+
+**Hardware**
+- ESP32-CAM
+
+**Frontend**
+- HTML
+- CSS
+- JavaScript
+
+---
+
+## 📂 Project Structure
+AgriSense
+│
+├── app.py # Main Flask application
+├── train_model.py # ML model training script
+├── predict.py # Prediction script
+├── disease_model.keras # Trained AI model
+├── labels.json # Class labels
+├── requirements.txt # Python dependencies
+│
+├── train/ # Training dataset
+└── Test/ # Test dataset
